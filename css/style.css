@@ -1,0 +1,47 @@
+/**Globales**/
+.contenedor{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.barra{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    align-items: center;
+}
+
+
+/* Header*/
+.cabecera-sitio.inicio{
+background-image:url(../img/header.jpg);
+background-position: center center;
+background-size: cover;
+height:100vh;
+min-height: 600px;
+}
+
+.encabezado{
+    color:greenyellow;
+}
+
+.mayusculas{
+    text-transform: uppercase;
+}
+
+/*Navegacion*/
+
+.navegacion a{
+    color:white;
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+.navegacion a:hover{
+    color:red;
+}
+
+.navegacion a:last-of-type{
+    margin:0;
+}
