@@ -1,13 +1,30 @@
 /**Globales**/
+
+html{
+    font-size: 62.5%/** Reset de REMS 62.5 = 10px de 16px **/
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
+}
+
 .contenedor{
-    max-width: 1200px;
+    max-width: 120rem;
     margin: 0 auto;
+}
+
+.contenidoheader{
+    height:100%;
+    display: flex;    
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .barra{
     display: flex;
     justify-content: space-between;
-    padding-top: 30px;
+    padding-top: 3rem;
     align-items: center;
 }
 
@@ -17,8 +34,8 @@
 background-image:url(../img/header.jpg);
 background-position: center center;
 background-size: cover;
-height:100vh;
-min-height: 600px;
+height:10rem;
+min-height: 60rem;
 }
 
 .encabezado{
@@ -34,8 +51,8 @@ min-height: 600px;
 .navegacion a{
     color:white;
     text-decoration: none;
-    font-size: 18px;
-    margin-right: 20px;
+    font-size: 1.8rem;
+    margin-right: 2rem;
 }
 
 .navegacion a:hover{
@@ -45,3 +62,23 @@ min-height: 600px;
 .navegacion a:last-of-type{
     margin:0;
 }
+
+h1{
+    color:white;
+}
+
+.seccion{
+    margin-top: 2rem;
+    margin-bottom:2rem;    
+    justify-content:space-between;
+    align-content: center;
+
+}
+.icono{
+    display: flex;
+    align-content: space-between;
+    
+}
+
+
+
